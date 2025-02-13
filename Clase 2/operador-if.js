@@ -11,4 +11,4 @@ console.log('Suficiente')
 }
 else{
 console.log('No aprobado');
-}
+} 

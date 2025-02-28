@@ -1,15 +1,43 @@
-# Descripción del Código
+# Curso-JavaScript
 
-Este código introduce los datos primitivos y objetos en JavaScript mediante ejemplos claros y sencillos.
+Este repositorio contiene el código y los recursos para el **Curso de JavaScript**. Cada carpeta está dedicada a diferentes temas y ejercicios dentro del curso.
 
-## Estructura del Código
+## Estructura del Proyecto
 
-1. **Impresión inicial**: Se imprime un mensaje para verificar la ejecución.
-2. **Datos primitivos**: Declaración de variables con tipos como `String`, `Number`, `Boolean`, `Undefined`, `Null`, `Symbol`, y `BigInt`.
-3. **Uso de `typeof`**: Identifica y muestra en consola los tipos de las variables.
-4. **Impresión de valores**: Muestra los valores asignados a las variables.
-5. **Objeto `perro`**: Representa un perro con propiedades como `nombre`, `edad`, `raza`, y `vacunas`.
+El proyecto está organizado de la siguiente manera:
 
-## Propósito
+### 1. `introduccion`
+Esta carpeta contiene los ejercicios y ejemplos de la introducción al curso. Aquí encontrarás:
+- Conceptos básicos de JavaScript.
+- Sintaxis básica.
+- Operadores y variables.
 
-Este código ayuda a comprender los fundamentos de JavaScript, incluyendo datos primitivos y objetos, ideal para principiantes.
+### 2. `funciones`
+En esta carpeta se encuentran los ejercicios enfocados en las funciones en JavaScript. Se incluye:
+- Declaración de funciones.
+- Funciones anónimas.
+- Parámetros y valores de retorno.
+
+### 3. `arreglos`
+Aquí se profundiza en el manejo de arreglos en JavaScript:
+- Métodos de los arreglos.
+- Iteración de arreglos.
+- Manipulación de datos dentro de los arreglos.
+
+### 4. `objetos`
+Los objetos son una de las estructuras de datos más importantes en JavaScript. En esta carpeta encontrarás ejemplos sobre:
+- Creación y acceso a propiedades.
+- Métodos de objetos.
+- `this` y su contexto.
+
+### 5. `asincronismo`
+Este directorio está dedicado a la programación asíncrona en JavaScript, cubriendo temas como:
+- Promesas.
+- `async` / `await`.
+- Callback functions.
+
+### 6. `dom`
+En esta carpeta encontrarás ejemplos de manipulación del **DOM** (Document Object Model):
+- Selección de elementos.
+- Modificación de contenido.
+- Manejo de eventos.

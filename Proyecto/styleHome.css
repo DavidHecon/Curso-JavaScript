@@ -17,7 +17,7 @@ body {
 
 img {
   width: 60vw;
-  height: 50vh;
+  height: 66vh;
 }
 
 .comment-container {
@@ -41,7 +41,7 @@ button {
   margin-left: 30%;
   cursor: pointer;
   border: none;
-  background-color: #4a4e69;
+  background-color: orange;
   color: white;
   border-radius: 15px;
 }
@@ -49,4 +49,41 @@ button {
 button:hover {
   background-color: #14151d;
   transform: scale(1.05);
+}
+
+.comentario{
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+}
+
+.comentario p{
+  font-size: 8px;
+  line-height:0.5px ;
+  color: #4a4e69;
+  
+}
+
+.user-image{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100px;
+}
+.delete-button:hover {
+  background-color: darkred;
 }

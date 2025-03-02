@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  height: 100vh;
+  margin: 10;
+  font-family: "Montserrat", serif;
+  background-color: #f2f3f4 ;
+  color: black;
+}
+
+.titulo{
+  text-align: center;
+}
+.food-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-left: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 0 40px ;
+}
+.activities-container{
+  max-width: 60%;
+  margin-right: 30px;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+textarea {
+  margin-top: -40px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  height: 10vh;
+}
+
+button {
+  width: 40%;
+  height: 5vh;
+  margin-top: 7px;
+  margin-left: 30%;
+  cursor: pointer;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #14151d;
+  transform: scale(1.05);
+}
+
+.comentario{
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: black;
+  border-radius: 10px;
+}
+
+.comentario p{
+  line-height:0.5px ;
+  color: #4a4e69;
+  
+}
+
+.timestamp {
+  font-size: 12px;
+}
+
+.comment-text {
+  font-size: 20px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 40px;  
+  height: 40px;  
+  margin-right: 10px; 
+  border-radius:50% ;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 85px; 
+  text-align: center;
+  white-space: nowrap;
+}
+.delete-button:hover {
+  background-color: darkred;
+}

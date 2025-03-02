@@ -41,3 +41,6 @@ En esta carpeta encontrarás ejemplos de manipulación del **DOM** (Document Obj
 - Selección de elementos.
 - Modificación de contenido.
 - Manejo de eventos.
+
+### PROYECTO 
+Interactua con el proyecto : https://actividades-acuaticas.netlify.app/

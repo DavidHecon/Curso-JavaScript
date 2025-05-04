@@ -28,11 +28,14 @@ function updateOrderStatus(order, status) {
 
 // Función asincrónica para procesar el pedido
 async function processOrder(order) {
-    // Simula un tiempo de preparación aleatorio entre 2 y 5 segundos
-    const preparationTime = Math.floor(Math.random() * 3000) + 2000;
+    // Añade un retraso explícito para mostrar "Creando pedido"
+    await new Promise(resolve => setTimeout(resolve, 2000)); // Retraso de 2 segundos
 
     // Actualiza el estado a 'En Proceso'
     updateOrderStatus(order, 'En Proceso');
+
+    // Simula un tiempo de preparación aleatorio entre 2 y 5 segundos
+    const preparationTime = Math.floor(Math.random() * 3000) + 2000;
 
     // Usamos setTimeout para simular el tiempo de preparación con Promise
     await new Promise(resolve => setTimeout(resolve, preparationTime));

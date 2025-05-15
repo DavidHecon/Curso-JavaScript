@@ -1,0 +1,151 @@
+body {
+  background-color: #000; /* Fondo negro */
+  color: black; /* Texto blanco para contraste */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  font-size: 47px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.small-text {
+  font-size: 0.7em; 
+  color: gray;      
+}
+.btns {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilo específico para el botón Fetch */
+#fetch-btn {
+  background: transparent;
+  color: #6a11cb;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #6a11cb;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 30px;
+}
+
+#fetch-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #6a11cb;
+  z-index: -1;
+  transition: left 0.3s ease;
+}
+
+#fetch-btn:hover::after {
+  left: 0;
+}
+
+#fetch-btn:hover {
+  color: #fff;
+}
+
+/* Estilo específico para el botón Axios */
+#axios-btn {
+  background: transparent;
+  color: #ff9900;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ff9900;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#axios-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ff9900;
+  z-index: -1;
+  transition: left 0.3s ease;
+}
+
+#axios-btn:hover::after {
+  left: 0;
+}
+
+#axios-btn:hover {
+  color: #fff;
+}
+
+/* Contenedor general */
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Elementos individuales */
+.item-container {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item-container img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Hover para los elementos */
+.item-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo específico para Fetch */
+.fetch-style .item-container {
+  background-color: #e6f7ff;
+  border-color: #91d5ff;
+}
+
+/* Estilo específico para Axios */
+.axios-style .item-container {
+  background-color: #fff7e6;
+  border-color: #ffe58f;
+}
+
+/* Mensajes de error */
+.error-style {
+  color: #ff4d4f;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}

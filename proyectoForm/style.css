@@ -1,0 +1,55 @@
+/* Estilos básicos para el formulario */
+form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+#registroEvento{
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #b2babb; /* Casi transparente */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Borde ligeramente visible */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#registroEvento {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+select,
+button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#nombre,
+#correo,
+#telefono {
+  width: 95%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover; /* Ajusta el tamaño para que cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin: 0;
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1513569771920-c9e1d31714af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}

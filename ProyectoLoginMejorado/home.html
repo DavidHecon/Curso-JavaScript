@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleHome.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Botón de Cerrar Sesión (añadido en la esquina superior derecha) -->
+    <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+
+    <h1>Actividades Acuaticas</h1>
+
+    <section class="food-container">
+        <section class="description-container">
+            <h2>Branko</h2>
+            <p>Descubre nuestro platillo principal</p>
+        </section>
+        <img src="https://images.pexels.com/photos/1659703/pexels-photo-1659703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+    </section>
+    
+    <section class="comment-container">
+        <h2>Comentarios</h2>
+        
+        <p id="user-info"></p>
+        
+        <textarea placeholder="Publica un comentario" id="comment"></textarea>
+        <button onclick="postComment()">Publicar</button>
+
+        <section id="comment-section"></section>
+    </section>
+
+    <script src="home.js"></script>
+    
+    <script>
+        function logout() {
+            // Elimina el usuario del localStorage
+            localStorage.removeItem('loggedUser');
+            // Redirige a la página de inicio
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Estilos globales */
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Navbar */
+nav {
+  background-color: #34495e;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+/* Contenedor principal */
+div {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de citas */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eaf2f8;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+li a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #1abc9c;
+}
+
+li:hover {
+  background-color: #d4e6f1;
+}
+
+/* Botones de acción */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #1c6ea4;
+}
+
+/* Página de error */
+.error-page {
+  text-align: center;
+}
+
+.error-page h1 {
+  font-size: 36px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.error-page p {
+  font-size: 18px;
+}
